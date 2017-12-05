@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MessagesLayoutDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/MessagesLayoutDelegate" class="dashAnchor"></a>
+    <a title="MessagesLayoutDelegate Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">MessageKit Docs</a> (51% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">MessageKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        MessagesLayoutDelegate Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AvatarView.html">AvatarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputBarButtonItem.html">InputBarButtonItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputBarButtonItem/Spacing.html">– Spacing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputStackView.html">InputStackView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputStackView/Position.html">– Position</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InputTextView.html">InputTextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationMessageCell.html">LocationMessageCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MediaMessageCell.html">MediaMessageCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageContainerView.html">MessageContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageDateHeaderView.html">MessageDateHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageFooterView.html">MessageFooterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageHeaderView.html">MessageHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageInputBar.html">MessageInputBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageInputBar/UIStackViewPosition.html">– UIStackViewPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageKitDateFormatter.html">MessageKitDateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageLabel.html">MessageLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesCollectionViewFlowLayout.html">MessagesCollectionViewFlowLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesViewController.html">MessagesViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NSLayoutConstraintSet.html">NSLayoutConstraintSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlayButtonView.html">PlayButtonView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SeparatorLine.html">SeparatorLine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextMessageCell.html">TextMessageCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:10MessageKit15AvatarAlignmentO">AvatarAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DetectorType.html">DetectorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LabelAlignment.html">LabelAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageData.html">MessageData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageStyle.html">MessageStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageStyle/TailCorner.html">– TailCorner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageStyle/TailStyle.html">– TailStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CollectionViewReusable.html">CollectionViewReusable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageCellDelegate.html">MessageCellDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageInputBarDelegate.html">MessageInputBarDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageLabelDelegate.html">MessageLabelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessageType.html">MessageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessagesDataSource.html">MessagesDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessagesDisplayDelegate.html">MessagesDisplayDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessagesLayoutDelegate.html">MessagesLayoutDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Avatar.html">Avatar</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AvatarPosition.html">AvatarPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AvatarPosition/Horizontal.html">– Horizontal</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AvatarPosition/Vertical.html">– Vertical</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10MessageKit08LocationA15SnapshotOptionsV">LocationMessageSnapshotOptions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Sender.html">Sender</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MessagesLayoutDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MessagesLayoutDelegate</span><span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A protocol used by the <code><a href="../Classes/MessagesCollectionViewFlowLayout.html">MessagesCollectionViewFlowLayout</a></code> object to determine
+the size and layout of a <code><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></code> and its contents.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/All%20Messages"></a>
+                <a name="//apple_ref/swift/Section/All Messages" class="dashAnchor"></a>
+                <a href="#/All%20Messages">
+                  <h3 class="section-name">All Messages</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP14messagePaddingSC12UIEdgeInsetsVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/messagePadding(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP14messagePaddingSC12UIEdgeInsetsVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">messagePadding(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the padding around the <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code> in a <code><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></code>.</p>
+
+<p>The default value returned by this method is determined by the messages <code><a href="../Structs/Sender.html">Sender</a></code>:</p>
+
+<p>Current Sender: <code>UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 4)</code></p>
+
+<p>All other Senders: <code>UIEdgeInsets(top: 0, left: 4, bottom: 0, right: 30)</code></p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">messagePadding</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIEdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP14avatarPositionAA06AvatarG0VAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/avatarPosition(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP14avatarPositionAA06AvatarG0VAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">avatarPosition(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the vertical and horizontal alignment for the <code><a href="../Classes/AvatarView.html">AvatarView</a></code> in a <code><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></code>.</p>
+
+<p>The default value returned by this method is an <code><a href="../Structs/AvatarPosition.html">AvatarPosition</a></code> with
+<code>Horizontal.natural</code> and <code>Vertical.messageBottom</code>.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">avatarPosition</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/AvatarPosition.html">AvatarPosition</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP21cellTopLabelAlignmentAA0hI0OAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/cellTopLabelAlignment(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP21cellTopLabelAlignmentAA0hI0OAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">cellTopLabelAlignment(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the horizontal alignment of a <code><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></code>&lsquo;s top label.</p>
+
+<p>The default value returned by this method is determined by the messages <code><a href="../Structs/Sender.html">Sender</a></code>:</p>
+
+<p>Current Sender: .messageTrailing(.zero)</p>
+
+<p>All other senders: .messageLeading(.zero)</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">cellTopLabelAlignment</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LabelAlignment.html">LabelAlignment</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP24cellBottomLabelAlignmentAA0hI0OAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/cellBottomLabelAlignment(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP24cellBottomLabelAlignmentAA0hI0OAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">cellBottomLabelAlignment(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the horizontal alignment of a <code><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></code>&lsquo;s bottom label.</p>
+
+<p>The default value returned by this method is determined by the messages <code><a href="../Structs/Sender.html">Sender</a></code>:</p>
+
+<p>Current Sender: .messageLeading(.zero)</p>
+
+<p>All other senders: .messageTrailing(.zero)</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">cellBottomLabelAlignment</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/LabelAlignment.html">LabelAlignment</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP10avatarSizeSC6CGSizeVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/avatarSize(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP10avatarSizeSC6CGSizeVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">avatarSize(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the size of the <code><a href="../Classes/AvatarView.html">AvatarView</a></code> in a <code><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></code>.</p>
+
+<p>The default value returned by this method is a size of <code>30 x 30</code>.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">avatarSize</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP14headerViewSizeSC6CGSizeVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionG0C2intF"></a>
+                    <a name="//apple_ref/swift/Method/headerViewSize(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP14headerViewSizeSC6CGSizeVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionG0C2intF">headerViewSize(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the size to use for a <code><a href="../Classes/MessageHeaderView.html">MessageHeaderView</a></code>.</p>
+
+<p>The default value returned by this method is the width of the <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> and a height of 12.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">headerViewSize</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed for this header.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the header.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this header will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP14footerViewSizeSC6CGSizeVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionG0C2intF"></a>
+                    <a name="//apple_ref/swift/Method/footerViewSize(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP14footerViewSizeSC6CGSizeVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionG0C2intF">footerViewSize(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the size to use for a <code><a href="../Classes/MessageFooterView.html">MessageFooterView</a></code>.</p>
+
+<p>The default value returned by this method is a size of <code>GGSize.zero</code>.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">footerViewSize</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed for this footer.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the footer.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this footer will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Text%20Messages"></a>
+                <a name="//apple_ref/swift/Section/Text Messages" class="dashAnchor"></a>
+                <a href="#/Text%20Messages">
+                  <h3 class="section-name">Text Messages</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP17messageLabelInsetSC12UIEdgeInsetsVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/messageLabelInset(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP17messageLabelInsetSC12UIEdgeInsetsVAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">messageLabelInset(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the insets for the text rect of the <code><a href="../Classes/MessageLabel.html">MessageLabel</a></code> in a <code><a href="../Classes/TextMessageCell.html">TextMessageCell</a></code>.</p>
+
+<p>The default value returned by this method is determined by the messages <code><a href="../Structs/Sender.html">Sender</a></code>:</p>
+
+<p>Current Sender: <code>UIEdgeInsets(top: 7, left: 14, bottom: 7, right: 18)</code></p>
+
+<p>All other Senders: <code>UIEdgeInsets(top: 7, left: 18, bottom: 7, right: 14)</code></p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">messageLabelInset</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIEdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageData.html">MessageData</a></code> case of <code>.text</code> or <code>.attributedText</code> to which these insets will apply.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Media%20Messages"></a>
+                <a name="//apple_ref/swift/Section/Media Messages" class="dashAnchor"></a>
+                <a href="#/Media%20Messages">
+                  <h3 class="section-name">Media Messages</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP13widthForMedia12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/widthForMedia(message:at:with:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP13widthForMedia12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF">widthForMedia(message:at:with:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the width for a <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code>.</p>
+
+<p>The default value returned by this method is the <code>maxWidth</code>.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">widthForMedia</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="n">with</span> <span class="nv">maxWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maxWidth</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The max available width for the <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code> respecting the cell&rsquo;s other content.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP14heightForMedia12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/heightForMedia(message:at:with:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP14heightForMedia12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF">heightForMedia(message:at:with:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the height for a <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code>.</p>
+
+<p>The default value returned by this method uses <code>AVMakeRect(aspectRatio:insideRect:)</code> with a bounding
+rect using the <code>maxWidth</code> and <code>.greatestFiniteMagnitude</code> for the height.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">heightForMedia</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="n">with</span> <span class="nv">maxWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maxWidth</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The max available width for the <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code> respecting the cell&rsquo;s other content.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Location%20Messages"></a>
+                <a name="//apple_ref/swift/Section/Location Messages" class="dashAnchor"></a>
+                <a href="#/Location%20Messages">
+                  <h3 class="section-name">Location Messages</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP16widthForLocation12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/widthForLocation(message:at:with:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP16widthForLocation12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF">widthForLocation(message:at:with:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the width for a <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code>.</p>
+
+<p>The default value returned by this method is the <code>maxWidth</code>.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">widthForLocation</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="n">with</span> <span class="nv">maxWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maxWidth</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The max available width for the <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code> respecting the cell&rsquo;s other content.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP17heightForLocation12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/heightForLocation(message:at:with:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP17heightForLocation12CoreGraphics7CGFloatVAA0A4Type_p7message_10Foundation9IndexPathV2atAG4withAA0C14CollectionViewC2intF">heightForLocation(message:at:with:in:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the height for a <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">heightForLocation</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="n">with</span> <span class="nv">maxWidth</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>maxWidth</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The max available width for the <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code> respecting the cell&rsquo;s other content.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegateP011shouldCacheD10AttributesSbAA0A4Type_p3for_tF"></a>
+                    <a name="//apple_ref/swift/Method/shouldCacheLayoutAttributes(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegateP011shouldCacheD10AttributesSbAA0A4Type_p3for_tF">shouldCacheLayoutAttributes(for:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies whether the layout attributes for a given <code><a href="../Protocols/MessageType.html">MessageType</a></code>
+should be cached by the <code><a href="../Classes/MessagesCollectionViewFlowLayout.html">MessagesCollectionViewFlowLayout</a></code>.</p>
+
+<p>The default value returned by this method is <code>false</code>.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">shouldCacheLayoutAttributes</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> whose attributes to cache.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit22MessagesLayoutDelegatePAAE15avatarAlignmentAA06AvatarG0OAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
+                    <a name="//apple_ref/swift/Method/avatarAlignment(for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit22MessagesLayoutDelegatePAAE15avatarAlignmentAA06AvatarG0OAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">avatarAlignment(for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Specifies the vertical alignment for the <code><a href="../Classes/AvatarView.html">AvatarView</a></code> in a <code><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></code>.</p>
+
+<p>The default value returned by this method is <code>AvatarAlignment.cellBottom</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">avatarAlignment</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums.html#/s:10MessageKit15AvatarAlignmentO">AvatarAlignment</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/MessageKit/MessageKit" target="_blank" rel="external">Steven Deutsch</a>. All rights reserved. (Last updated: 2017-12-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
