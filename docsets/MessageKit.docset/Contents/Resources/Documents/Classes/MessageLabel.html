@@ -14,7 +14,7 @@
     <a title="MessageLabel Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">MessageKit Docs</a> (51% documented)</p>
+        <p><a href="../index.html">MessageKit Docs</a> (52% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -71,9 +71,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessageInputBar.html">MessageInputBar</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/MessageInputBar/UIStackViewPosition.html">– UIStackViewPosition</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessageKitDateFormatter.html">MessageKitDateFormatter</a>
@@ -190,7 +187,7 @@
             <h1>MessageLabel</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">MessageLabel</span><span class="p">:</span> <span class="kt">UILabel</span><span class="p">,</span> <span class="kt">UIGestureRecognizerDelegate</span></code></pre>
+                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">MessageLabel</span><span class="p">:</span> <span class="kt">UILabel</span></code></pre>
 
                 </div>
               </div>
@@ -480,6 +477,33 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:10MessageKit0A5LabelC17defaultAttributess10DictionaryVySC21NSAttributedStringKeyVypGvZ"></a>
+                    <a name="//apple_ref/swift/Variable/defaultAttributes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit0A5LabelC17defaultAttributess10DictionaryVySC21NSAttributedStringKeyVypGvZ">defaultAttributes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">defaultAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:10MessageKit0A5LabelC17addressAttributess10DictionaryVySC21NSAttributedStringKeyVypGv"></a>
                     <a name="//apple_ref/swift/Property/addressAttributes" class="dashAnchor"></a>
                     <a class="token" href="#/s:10MessageKit0A5LabelC17addressAttributess10DictionaryVySC21NSAttributedStringKeyVypGv">addressAttributes</a>
@@ -497,7 +521,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">addressAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">[:]</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">addressAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="n"><a href="../Classes/MessageLabel.html#/s:10MessageKit0A5LabelC17defaultAttributess10DictionaryVySC21NSAttributedStringKeyVypGvZ">defaultAttributes</a></span></code></pre>
 
                         </div>
                       </div>
@@ -524,7 +548,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">dateAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">[:]</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">dateAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="n"><a href="../Classes/MessageLabel.html#/s:10MessageKit0A5LabelC17defaultAttributess10DictionaryVySC21NSAttributedStringKeyVypGvZ">defaultAttributes</a></span></code></pre>
 
                         </div>
                       </div>
@@ -551,7 +575,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">phoneNumberAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">[:]</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">phoneNumberAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="n"><a href="../Classes/MessageLabel.html#/s:10MessageKit0A5LabelC17defaultAttributess10DictionaryVySC21NSAttributedStringKeyVypGvZ">defaultAttributes</a></span></code></pre>
 
                         </div>
                       </div>
@@ -578,7 +602,34 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="k">var</span> <span class="nv">urlAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="p">[:]</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">urlAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">]</span> <span class="o">=</span> <span class="n"><a href="../Classes/MessageLabel.html#/s:10MessageKit0A5LabelC17defaultAttributess10DictionaryVySC21NSAttributedStringKeyVypGvZ">defaultAttributes</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit0A5LabelC13setAttributesys10DictionaryVySC21NSAttributedStringKeyVypG_AA12DetectorTypeO8detectortF"></a>
+                    <a name="//apple_ref/swift/Method/setAttributes(_:detector:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit0A5LabelC13setAttributesys10DictionaryVySC21NSAttributedStringKeyVypG_AA12DetectorTypeO8detectortF">setAttributes(_:detector:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setAttributes</span><span class="p">(</span><span class="n">_</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedStringKey</span><span class="p">:</span> <span class="kt">Any</span><span class="p">],</span> <span class="nv">detector</span><span class="p">:</span> <span class="kt"><a href="../Enums/DetectorType.html">DetectorType</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -728,75 +779,10 @@
                 </li>
               </ul>
             </div>
-            <div class="task-group">
-              <div class="task-name-container">
-                <a name="/UIGestureRecognizer%20Delegate"></a>
-                <a name="//apple_ref/swift/Section/UIGestureRecognizer Delegate" class="dashAnchor"></a>
-                <a href="#/UIGestureRecognizer%20Delegate">
-                  <h3 class="section-name">UIGestureRecognizer Delegate</h3>
-                </a>
-              </div>
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@MessageKit@objc(cs)MessageLabel(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:"></a>
-                    <a name="//apple_ref/swift/Method/gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@MessageKit@objc(cs)MessageLabel(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:">gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">gestureRecognizer</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">,</span> <span class="n">shouldRecognizeSimultaneouslyWith</span> <span class="nv">otherGestureRecognizer</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@MessageKit@objc(cs)MessageLabel(im)gestureRecognizer:shouldReceiveTouch:"></a>
-                    <a name="//apple_ref/swift/Method/gestureRecognizer(_:shouldReceive:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@MessageKit@objc(cs)MessageLabel(im)gestureRecognizer:shouldReceiveTouch:">gestureRecognizer(_:shouldReceive:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">gestureRecognizer</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">,</span> <span class="n">shouldReceive</span> <span class="nv">touch</span><span class="p">:</span> <span class="kt">UITouch</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://github.com/MessageKit/MessageKit" target="_blank" rel="external">Steven Deutsch</a>. All rights reserved. (Last updated: 2017-12-04)</p>
+          <p>&copy; 2017 <a class="link" href="https://github.com/MessageKit/MessageKit" target="_blank" rel="external">Steven Deutsch</a>. All rights reserved. (Last updated: 2017-12-17)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
