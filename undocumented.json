@@ -2,34 +2,6 @@
   "warnings": [
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": null,
-      "symbol": "MessagesViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": null,
-      "symbol": "MessagesViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": null,
-      "symbol": "MessagesViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 28,
-      "symbol": "MessagesViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
       "line": 50,
       "symbol": "MessagesViewController.canBecomeFirstResponder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
@@ -51,113 +23,568 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 74,
+      "line": 77,
       "symbol": "MessagesViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 90,
+      "line": 87,
+      "symbol": "MessagesViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 92,
+      "symbol": "MessagesViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 97,
       "symbol": "MessagesViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 167,
-      "symbol": "MessagesViewController.collectionView(_:layout:sizeForItemAt:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 172,
-      "symbol": "MessagesViewController.collectionView(_:layout:referenceSizeForHeaderInSection:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 182,
-      "symbol": "MessagesViewController.collectionView(_:layout:referenceSizeForFooterInSection:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 198,
+      "line": 153,
       "symbol": "MessagesViewController.numberOfSections(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 205,
+      "line": 160,
       "symbol": "MessagesViewController.collectionView(_:numberOfItemsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 214,
+      "line": 167,
       "symbol": "MessagesViewController.collectionView(_:cellForItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
-      "line": 242,
+      "line": 197,
       "symbol": "MessagesViewController.collectionView(_:viewForSupplementaryElementOfKind:at:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Extensions/UICollectionView+Extensions.swift",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 219,
+      "symbol": "MessagesViewController.collectionView(_:layout:sizeForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 224,
+      "symbol": "MessagesViewController.collectionView(_:layout:referenceSizeForHeaderInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 235,
+      "symbol": "MessagesViewController.collectionView(_:layout:referenceSizeForFooterInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 245,
+      "symbol": "MessagesViewController.collectionView(_:shouldShowMenuForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 258,
+      "symbol": "MessagesViewController.collectionView(_:canPerformAction:forItemAt:withSender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Controllers/MessagesViewController.swift",
+      "line": 262,
+      "symbol": "MessagesViewController.collectionView(_:performAction:forItemAt:withSender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/LocationMessageSizeCalculator.swift",
+      "line": 27,
+      "symbol": "LocationMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/LocationMessageSizeCalculator.swift",
       "line": 29,
-      "symbol": "CollectionViewReusable.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "symbol": "LocationMessageSizeCalculator.messageContainerSize(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MediaMessageSizeCalculator.swift",
+      "line": 27,
+      "symbol": "MediaMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MediaMessageSizeCalculator.swift",
+      "line": 29,
+      "symbol": "MediaMessageSizeCalculator.messageContainerSize(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 27,
+      "symbol": "MessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 29,
+      "symbol": "MessageSizeCalculator.init(layout:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 35,
+      "symbol": "MessageSizeCalculator.incomingAvatarSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 36,
+      "symbol": "MessageSizeCalculator.outgoingAvatarSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 38,
+      "symbol": "MessageSizeCalculator.incomingAvatarPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 39,
+      "symbol": "MessageSizeCalculator.outgoingAvatarPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 41,
+      "symbol": "MessageSizeCalculator.incomingMessagePadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 42,
+      "symbol": "MessageSizeCalculator.outgoingMessagePadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 44,
+      "symbol": "MessageSizeCalculator.incomingCellTopLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 45,
+      "symbol": "MessageSizeCalculator.outgoingCellTopLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 47,
+      "symbol": "MessageSizeCalculator.incomingMessageTopLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 48,
+      "symbol": "MessageSizeCalculator.outgoingMessageTopLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 50,
+      "symbol": "MessageSizeCalculator.incomingMessageBottomLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 51,
+      "symbol": "MessageSizeCalculator.outgoingMessageBottomLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 80,
+      "symbol": "MessageSizeCalculator.cellContentHeight(for:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 123,
+      "symbol": "MessageSizeCalculator.avatarPosition(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 137,
+      "symbol": "MessageSizeCalculator.avatarSize(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 145,
+      "symbol": "MessageSizeCalculator.cellTopLabelSize(for:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 152,
+      "symbol": "MessageSizeCalculator.cellTopLabelAlignment(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 160,
+      "symbol": "MessageSizeCalculator.messageTopLabelSize(for:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 167,
+      "symbol": "MessageSizeCalculator.messageTopLabelAlignment(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 175,
+      "symbol": "MessageSizeCalculator.messageBottomLabelSize(for:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 182,
+      "symbol": "MessageSizeCalculator.messageBottomLabelAlignment(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 190,
+      "symbol": "MessageSizeCalculator.messageContainerPadding(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 196,
+      "symbol": "MessageSizeCalculator.messageContainerSize(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 201,
+      "symbol": "MessageSizeCalculator.messageContainerMaxWidth(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessageSizeCalculator.swift",
+      "line": 209,
+      "symbol": "MessageSizeCalculator.messagesLayout",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
-      "line": 98,
+      "line": 32,
+      "symbol": "MessagesCollectionViewFlowLayout.layoutAttributesClass",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 60,
+      "symbol": "MessagesCollectionViewFlowLayout.itemWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 67,
       "symbol": "MessagesCollectionViewFlowLayout.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
-      "line": 110,
+      "line": 75,
       "symbol": "MessagesCollectionViewFlowLayout.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
-      "line": 148,
-      "symbol": "MessagesCollectionViewFlowLayout.shouldInvalidateLayout(forBoundsChange:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
-      "line": 157,
-      "symbol": "MessagesCollectionViewFlowLayout.invalidationContext(forBoundsChange:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
-      "line": 164,
+      "line": 85,
       "symbol": "MessagesCollectionViewFlowLayout.layoutAttributesForElements(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
-      "line": 177,
+      "line": 96,
       "symbol": "MessagesCollectionViewFlowLayout.layoutAttributesForItem(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 109,
+      "symbol": "MessagesCollectionViewFlowLayout.shouldInvalidateLayout(forBoundsChange:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 113,
+      "symbol": "MessagesCollectionViewFlowLayout.invalidationContext(forBoundsChange:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 127,
+      "symbol": "MessagesCollectionViewFlowLayout.textMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 128,
+      "symbol": "MessagesCollectionViewFlowLayout.attributedTextMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 129,
+      "symbol": "MessagesCollectionViewFlowLayout.emojiMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 130,
+      "symbol": "MessagesCollectionViewFlowLayout.photoMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 131,
+      "symbol": "MessagesCollectionViewFlowLayout.videoMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 132,
+      "symbol": "MessagesCollectionViewFlowLayout.locationMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 134,
+      "symbol": "MessagesCollectionViewFlowLayout.cellSizeCalculatorForItem(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewFlowLayout.swift",
+      "line": 154,
+      "symbol": "MessagesCollectionViewFlowLayout.sizeForItem(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 32,
+      "symbol": "MessagesCollectionViewLayoutAttributes.avatarSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 33,
+      "symbol": "MessagesCollectionViewLayoutAttributes.avatarPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 35,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageContainerSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 36,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageContainerPadding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 37,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageLabelFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 38,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageLabelInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 40,
+      "symbol": "MessagesCollectionViewLayoutAttributes.cellTopLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 41,
+      "symbol": "MessagesCollectionViewLayoutAttributes.cellTopLabelSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 43,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageTopLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 44,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageTopLabelSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 46,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageBottomLabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 47,
+      "symbol": "MessagesCollectionViewLayoutAttributes.messageBottomLabelSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 51,
+      "symbol": "MessagesCollectionViewLayoutAttributes.copy(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/MessagesCollectionViewLayoutAttributes.swift",
+      "line": 70,
+      "symbol": "MessagesCollectionViewLayoutAttributes.isEqual(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/TextMessageSizeCalculator.swift",
+      "line": 27,
+      "symbol": "TextMessageSizeCalculator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/TextMessageSizeCalculator.swift",
+      "line": 29,
+      "symbol": "TextMessageSizeCalculator.incomingMessageLabelInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/TextMessageSizeCalculator.swift",
+      "line": 30,
+      "symbol": "TextMessageSizeCalculator.outgoingMessageLabelInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/TextMessageSizeCalculator.swift",
+      "line": 32,
+      "symbol": "TextMessageSizeCalculator.messageLabelFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/TextMessageSizeCalculator.swift",
+      "line": 40,
+      "symbol": "TextMessageSizeCalculator.messageContainerMaxWidth(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Layout/TextMessageSizeCalculator.swift",
+      "line": 46,
+      "symbol": "TextMessageSizeCalculator.messageContainerSize(for:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -170,6 +597,13 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/AvatarPosition.swift",
+      "line": null,
+      "symbol": "AvatarPosition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/AvatarPosition.swift",
       "line": 29,
       "symbol": "AvatarPosition",
       "symbol_kind": "source.lang.swift.decl.struct",
@@ -177,28 +611,28 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/AvatarPosition.swift",
-      "line": 68,
+      "line": 72,
       "symbol": "AvatarPosition.vertical",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/AvatarPosition.swift",
-      "line": 71,
+      "line": 75,
       "symbol": "AvatarPosition.horizontal",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/AvatarPosition.swift",
-      "line": 75,
+      "line": 79,
       "symbol": "AvatarPosition.init(horizontal:vertical:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/AvatarPosition.swift",
-      "line": 80,
+      "line": 84,
       "symbol": "AvatarPosition.init(vertical:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -236,6 +670,48 @@
       "line": 32,
       "symbol": "DetectorType.url",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/DetectorType.swift",
+      "line": 33,
+      "symbol": "DetectorType.transitInformation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/LabelAlignment.swift",
+      "line": null,
+      "symbol": "LabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/LabelAlignment.swift",
+      "line": 27,
+      "symbol": "LabelAlignment",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/LabelAlignment.swift",
+      "line": 29,
+      "symbol": "LabelAlignment.textAlignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/LabelAlignment.swift",
+      "line": 30,
+      "symbol": "LabelAlignment.textInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/LabelAlignment.swift",
+      "line": 32,
+      "symbol": "LabelAlignment.init(textAlignment:textInsets:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -386,76 +862,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 27,
-      "symbol": "NSLayoutConstraintSet",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 29,
-      "symbol": "NSLayoutConstraintSet.top",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 30,
-      "symbol": "NSLayoutConstraintSet.bottom",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 31,
-      "symbol": "NSLayoutConstraintSet.left",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 32,
-      "symbol": "NSLayoutConstraintSet.right",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 33,
-      "symbol": "NSLayoutConstraintSet.centerX",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 34,
-      "symbol": "NSLayoutConstraintSet.centerY",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 35,
-      "symbol": "NSLayoutConstraintSet.width",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 36,
-      "symbol": "NSLayoutConstraintSet.height",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/NSConstraintLayoutSet.swift",
-      "line": 38,
-      "symbol": "NSLayoutConstraintSet.init(top:bottom:left:right:centerX:centerY:width:height:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Models/Sender.swift",
       "line": 42,
       "symbol": "Sender.init(id:displayName:)",
@@ -463,94 +869,80 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": null,
-      "symbol": "MessageLabelDelegate",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 27,
-      "symbol": "MessageLabelDelegate",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
       "line": 29,
-      "symbol": "MessageLabelDelegate.didSelectAddress(_:)",
+      "symbol": "MessagesLayoutDelegate.avatarSize(for:at:in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 31,
-      "symbol": "MessageLabelDelegate.didSelectDate(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 33,
-      "symbol": "MessageLabelDelegate.didSelectPhoneNumber(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 35,
-      "symbol": "MessageLabelDelegate.didSelectURL(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 41,
-      "symbol": "MessageLabelDelegate.didSelectAddress(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 43,
-      "symbol": "MessageLabelDelegate.didSelectDate(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 45,
-      "symbol": "MessageLabelDelegate.didSelectPhoneNumber(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessageLabelDelegate.swift",
-      "line": 47,
-      "symbol": "MessageLabelDelegate.didSelectURL(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessagesDataSource.swift",
-      "line": null,
-      "symbol": "MessagesDataSource",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Protocols/MessagesDataSource.swift",
-      "line": 27,
-      "symbol": "MessagesDataSource",
-      "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
-      "line": 44,
-      "symbol": "AvatarAlignment",
-      "symbol_kind": "source.lang.swift.decl.enum",
+      "line": 33,
+      "symbol": "MessagesLayoutDelegate.avatarPosition(for:at:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 37,
+      "symbol": "MessagesLayoutDelegate.messageLabelInset(for:at:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 41,
+      "symbol": "MessagesLayoutDelegate.messagePadding(for:at:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 45,
+      "symbol": "MessagesLayoutDelegate.cellTopLabelAlignment(for:at:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 49,
+      "symbol": "MessagesLayoutDelegate.cellBottomLabelAlignment(for:at:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 53,
+      "symbol": "MessagesLayoutDelegate.widthForMedia(message:at:with:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 57,
+      "symbol": "MessagesLayoutDelegate.heightForMedia(message:at:with:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 61,
+      "symbol": "MessagesLayoutDelegate.widthForLocation(message:at:with:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 65,
+      "symbol": "MessagesLayoutDelegate.heightForLocation(message:at:with:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Supporting/MessageKit+Availability.swift",
+      "line": 69,
+      "symbol": "MessagesLayoutDelegate.shouldCacheLayoutAttributes(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -563,441 +955,196 @@
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
       "line": 31,
-      "symbol": "AvatarView.avatar",
+      "symbol": "AvatarView.initials",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 33,
-      "symbol": "AvatarView.imageView",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 35,
-      "symbol": "AvatarView.image",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 39,
+      "line": 37,
       "symbol": "AvatarView.placeholderFont",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 45,
+      "line": 43,
       "symbol": "AvatarView.placeholderTextColor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 51,
+      "line": 49,
       "symbol": "AvatarView.fontMinimumScaleFactor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 53,
+      "line": 51,
       "symbol": "AvatarView.adjustsFontSizeToFitWidth",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 62,
+      "line": 60,
       "symbol": "AvatarView.frame",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 69,
+      "line": 66,
       "symbol": "AvatarView.bounds",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 77,
+      "line": 73,
       "symbol": "AvatarView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 82,
+      "line": 78,
       "symbol": "AvatarView.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 152,
+      "line": 155,
       "symbol": "AvatarView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 172,
+      "line": 171,
       "symbol": "AvatarView.set(avatar:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/AvatarView.swift",
-      "line": 176,
+      "line": 179,
       "symbol": "AvatarView.setCorner(radius:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/LocationMessageCell.swift",
-      "line": 28,
-      "symbol": "LocationMessageCell",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/LocationMessageCell.swift",
-      "line": 30,
-      "symbol": "LocationMessageCell.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/LocationMessageCell.swift",
-      "line": 34,
-      "symbol": "LocationMessageCell.activityIndicator",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/LocationMessageCell.swift",
-      "line": 36,
-      "symbol": "LocationMessageCell.imageView",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/LocationMessageCell.swift",
-      "line": 38,
+      "line": 39,
       "symbol": "LocationMessageCell.setupSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/LocationMessageCell.swift",
-      "line": 46,
-      "symbol": "LocationMessageCell.setupConstraints()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/LocationMessageCell.swift",
-      "line": 51,
-      "symbol": "LocationMessageCell.configure(with:at:and:)",
+      "line": 53,
+      "symbol": "LocationMessageCell.prepareForReuse()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MediaMessageCell.swift",
-      "line": 27,
-      "symbol": "MediaMessageCell",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MediaMessageCell.swift",
-      "line": 29,
-      "symbol": "MediaMessageCell.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MediaMessageCell.swift",
-      "line": 33,
-      "symbol": "MediaMessageCell.playButtonView",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MediaMessageCell.swift",
-      "line": 38,
-      "symbol": "MediaMessageCell.imageView",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MediaMessageCell.swift",
-      "line": 42,
-      "symbol": "MediaMessageCell.setupConstraints()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MediaMessageCell.swift",
-      "line": 48,
+      "line": 52,
       "symbol": "MediaMessageCell.setupSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MediaMessageCell.swift",
-      "line": 55,
-      "symbol": "MediaMessageCell.configure(with:at:and:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 27,
-      "symbol": "MessageCollectionViewCell",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 29,
-      "symbol": "MessageCollectionViewCell.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 33,
-      "symbol": "MessageCollectionViewCell.avatarView",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 35,
-      "symbol": "MessageCollectionViewCell.messageContainerView",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 42,
-      "symbol": "MessageCollectionViewCell.cellTopLabel",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 48,
-      "symbol": "MessageCollectionViewCell.cellBottomLabel",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 54,
-      "symbol": "MessageCollectionViewCell.delegate",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 56,
+      "line": 32,
       "symbol": "MessageCollectionViewCell.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 63,
+      "line": 36,
       "symbol": "MessageCollectionViewCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 67,
-      "symbol": "MessageCollectionViewCell.setupSubviews()",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageContentCell.swift",
+      "line": 66,
+      "symbol": "MessageContentCell.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 74,
-      "symbol": "MessageCollectionViewCell.prepareForReuse()",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageContentCell.swift",
+      "line": 72,
+      "symbol": "MessageContentCell.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
-      "line": 83,
-      "symbol": "MessageCollectionViewCell.apply(_:)",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageContentCell.swift",
+      "line": 76,
+      "symbol": "MessageContentCell.setupSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageCollectionViewCell.swift",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageContentCell.swift",
+      "line": 84,
+      "symbol": "MessageContentCell.prepareForReuse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/MessageContentCell.swift",
       "line": 93,
-      "symbol": "MessageCollectionViewCell.configure(with:at:and:)",
+      "symbol": "MessageContentCell.apply(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 27,
-      "symbol": "TextMessageCell",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 29,
-      "symbol": "TextMessageCell.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 33,
-      "symbol": "TextMessageCell.delegate",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 39,
-      "symbol": "TextMessageCell.messageLabel",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 43,
+      "line": 44,
       "symbol": "TextMessageCell.apply(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 51,
+      "line": 53,
       "symbol": "TextMessageCell.prepareForReuse()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 57,
+      "line": 59,
       "symbol": "TextMessageCell.setupSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 63,
-      "symbol": "TextMessageCell.setupConstraints()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Cells/TextMessageCell.swift",
-      "line": 67,
-      "symbol": "TextMessageCell.configure(with:at:and:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageDateHeaderView.swift",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageReusableView.swift",
       "line": 27,
-      "symbol": "MessageDateHeaderView",
+      "symbol": "MessageReusableView",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageDateHeaderView.swift",
-      "line": 28,
-      "symbol": "MessageDateHeaderView.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageDateHeaderView.swift",
-      "line": 32,
-      "symbol": "MessageDateHeaderView.dateLabel",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageDateHeaderView.swift",
-      "line": 36,
-      "symbol": "MessageDateHeaderView.init(frame:)",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageReusableView.swift",
+      "line": 31,
+      "symbol": "MessageReusableView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageDateHeaderView.swift",
-      "line": 45,
-      "symbol": "MessageDateHeaderView.init(coder:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageFooterView.swift",
-      "line": 27,
-      "symbol": "MessageFooterView",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageFooterView.swift",
-      "line": 28,
-      "symbol": "MessageFooterView.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageFooterView.swift",
-      "line": 32,
-      "symbol": "MessageFooterView.init(frame:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageFooterView.swift",
-      "line": 36,
-      "symbol": "MessageFooterView.init(coder:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageHeaderView.swift",
-      "line": 27,
-      "symbol": "MessageHeaderView",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageHeaderView.swift",
-      "line": 28,
-      "symbol": "MessageHeaderView.reuseIdentifier()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageHeaderView.swift",
-      "line": 32,
-      "symbol": "MessageHeaderView.init(frame:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageHeaderView.swift",
-      "line": 36,
-      "symbol": "MessageHeaderView.init(coder:)",
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/Headers & Footers/MessageReusableView.swift",
+      "line": 35,
+      "symbol": "MessageReusableView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -1020,6 +1167,13 @@
       "line": 43,
       "symbol": "InputBarButtonItem.Spacing.none",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputBarItem.swift",
+      "line": 46,
+      "symbol": "InputBarButtonItem.InputBarButtonItemAction",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
@@ -1080,6 +1234,13 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputStackView.swift",
+      "line": 49,
+      "symbol": "InputStackView.init(axis:spacing:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputStackView.swift",
       "line": 55,
       "symbol": "InputStackView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
@@ -1101,36 +1262,85 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
-      "line": 46,
+      "line": 47,
       "symbol": "InputTextView.attributedText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
-      "line": 98,
+      "line": 59,
+      "symbol": "InputTextView.components",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
+      "line": 63,
+      "symbol": "InputTextView.isImagePasteEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
+      "line": 111,
       "symbol": "InputTextView.scrollIndicatorInsets",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
-      "line": 118,
+      "line": 131,
       "symbol": "InputTextView.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
-      "line": 122,
+      "line": 135,
       "symbol": "InputTextView.init(frame:textContainer:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
-      "line": 127,
+      "line": 140,
       "symbol": "InputTextView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
+      "line": 213,
+      "symbol": "InputTextView.canPerformAction(_:withSender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InputTextView.swift",
+      "line": 221,
+      "symbol": "InputTextView.paste(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InsetLabel.swift",
+      "line": 27,
+      "symbol": "InsetLabel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InsetLabel.swift",
+      "line": 29,
+      "symbol": "InsetLabel.textInsets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/InsetLabel.swift",
+      "line": 33,
+      "symbol": "InsetLabel.drawText(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -1157,28 +1367,28 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageInputBar.swift",
-      "line": 272,
+      "line": 276,
       "symbol": "MessageInputBar.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageInputBar.swift",
-      "line": 276,
+      "line": 280,
       "symbol": "MessageInputBar.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageInputBar.swift",
-      "line": 281,
+      "line": 285,
       "symbol": "MessageInputBar.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageInputBar.swift",
-      "line": 290,
+      "line": 294,
       "symbol": "MessageInputBar.didMoveToWindow()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -1262,79 +1472,79 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 118,
+      "line": 120,
       "symbol": "MessageLabel.defaultAttributes",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 126,
+      "line": 128,
       "symbol": "MessageLabel.addressAttributes",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 128,
+      "line": 130,
       "symbol": "MessageLabel.dateAttributes",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 130,
+      "line": 132,
       "symbol": "MessageLabel.phoneNumberAttributes",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 132,
+      "line": 134,
       "symbol": "MessageLabel.urlAttributes",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 134,
+      "line": 136,
+      "symbol": "MessageLabel.transitInformationAttributes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
+      "line": 138,
       "symbol": "MessageLabel.setAttributes(_:detector:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 154,
+      "line": 160,
       "symbol": "MessageLabel.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 160,
+      "line": 166,
       "symbol": "MessageLabel.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 166,
+      "line": 172,
       "symbol": "MessageLabel.drawText(in:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessageLabel.swift",
-      "line": 180,
+      "line": 186,
       "symbol": "MessageLabel.configure(block:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
-      "line": null,
-      "symbol": "MessagesCollectionView",
-      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -1374,42 +1584,42 @@
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
-      "line": 39,
-      "symbol": "MessagesCollectionView.showsDateHeaderAfterTimeInterval",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
-      "line": 51,
+      "line": 47,
       "symbol": "MessagesCollectionView.init(frame:collectionViewLayout:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
-      "line": 56,
+      "line": 54,
       "symbol": "MessagesCollectionView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
-      "line": 60,
+      "line": 58,
       "symbol": "MessagesCollectionView.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
-      "line": 66,
+      "line": 79,
+      "symbol": "MessagesCollectionView.handleTapGesture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
+      "line": 89,
       "symbol": "MessagesCollectionView.scrollToBottom(animated:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/stevendeutsch/Development/OpenSource/MessageKit/Sources/Views/MessagesCollectionView.swift",
-      "line": 74,
+      "line": 97,
       "symbol": "MessagesCollectionView.reloadDataAndKeepOffset()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

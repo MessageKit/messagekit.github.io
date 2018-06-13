@@ -14,7 +14,7 @@
     <a title="TextMessageCell Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">MessageKit Docs</a> (52% documented)</p>
+        <p><a href="../index.html">MessageKit Docs</a> (54% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -34,6 +34,9 @@
                 <a href="../Classes/AvatarView.html">AvatarView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/CellSizeCalculator.html">CellSizeCalculator</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/InputBarButtonItem.html">InputBarButtonItem</a>
               </li>
               <li class="nav-group-task">
@@ -49,10 +52,19 @@
                 <a href="../Classes/InputTextView.html">InputTextView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/InsetLabel.html">InsetLabel</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/LocationMessageCell.html">LocationMessageCell</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/LocationMessageSizeCalculator.html">LocationMessageSizeCalculator</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/MediaMessageCell.html">MediaMessageCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MediaMessageSizeCalculator.html">MediaMessageSizeCalculator</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a>
@@ -61,13 +73,7 @@
                 <a href="../Classes/MessageContainerView.html">MessageContainerView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/MessageDateHeaderView.html">MessageDateHeaderView</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/MessageFooterView.html">MessageFooterView</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/MessageHeaderView.html">MessageHeaderView</a>
+                <a href="../Classes/MessageContentCell.html">MessageContentCell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessageInputBar.html">MessageInputBar</a>
@@ -79,16 +85,22 @@
                 <a href="../Classes/MessageLabel.html">MessageLabel</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/MessageReusableView.html">MessageReusableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageSizeCalculator.html">MessageSizeCalculator</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessagesCollectionViewFlowLayout.html">MessagesCollectionViewFlowLayout</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/MessagesViewController.html">MessagesViewController</a>
+                <a href="../Classes/MessagesCollectionViewLayoutAttributes.html">MessagesCollectionViewLayoutAttributes</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/NSLayoutConstraintSet.html">NSLayoutConstraintSet</a>
+                <a href="../Classes/MessagesViewController.html">MessagesViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/PlayButtonView.html">PlayButtonView</a>
@@ -99,22 +111,19 @@
               <li class="nav-group-task">
                 <a href="../Classes/TextMessageCell.html">TextMessageCell</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextMessageSizeCalculator.html">TextMessageSizeCalculator</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
             <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums.html#/s:10MessageKit15AvatarAlignmentO">AvatarAlignment</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/DetectorType.html">DetectorType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/LabelAlignment.html">LabelAlignment</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/MessageData.html">MessageData</a>
+                <a href="../Enums/MessageKind.html">MessageKind</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/MessageStyle.html">MessageStyle</a>
@@ -131,7 +140,10 @@
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols/CollectionViewReusable.html">CollectionViewReusable</a>
+                <a href="../Protocols/LocationItem.html">LocationItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MediaItem.html">MediaItem</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/MessageCellDelegate.html">MessageCellDelegate</a>
@@ -172,7 +184,10 @@
                 <a href="../Structs/AvatarPosition/Vertical.html">– Vertical</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs.html#/s:10MessageKit08LocationA15SnapshotOptionsV">LocationMessageSnapshotOptions</a>
+                <a href="../Structs/LabelAlignment.html">LabelAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocationMessageSnapshotOptions.html">LocationMessageSnapshotOptions</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Sender.html">Sender</a>
@@ -187,45 +202,14 @@
             <h1>TextMessageCell</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TextMessageCell</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a></span></code></pre>
+                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TextMessageCell</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessageContentCell.html">MessageContentCell</a></span></code></pre>
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>A subclass of <code><a href="../Classes/MessageContentCell.html">MessageContentCell</a></code> used to display text messages.</p>
 
           </section>
           <section class="section task-group-section">
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10MessageKit04TextA4CellC15reuseIdentifierSSyFZ"></a>
-                    <a name="//apple_ref/swift/Method/reuseIdentifier()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10MessageKit04TextA4CellC15reuseIdentifierSSyFZ">reuseIdentifier()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="k">override</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">reuseIdentifier</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
             <div class="task-group">
               <div class="task-name-container">
                 <a name="/Properties"></a>
@@ -238,9 +222,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10MessageKit04TextA4CellC8delegateAA0aD8Delegate_pSgXwv"></a>
+                    <a name="/s:10MessageKit04TextA4CellC8delegateAA0aD8Delegate_pSgXwvp"></a>
                     <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10MessageKit04TextA4CellC8delegateAA0aD8Delegate_pSgXwv">delegate</a>
+                    <a class="token" href="#/s:10MessageKit04TextA4CellC8delegateAA0aD8Delegate_pSgXwvp">delegate</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -248,7 +232,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The <code><a href="../Protocols/MessageCellDelegate.html">MessageCellDelegate</a></code> for the cell.</p>
 
                       </div>
                       <div class="declaration">
@@ -265,9 +249,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10MessageKit04TextA4CellC12messageLabelAA0aF0Cv"></a>
+                    <a name="/s:10MessageKit04TextA4CellC12messageLabelAA0aF0Cvp"></a>
                     <a name="//apple_ref/swift/Property/messageLabel" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10MessageKit04TextA4CellC12messageLabelAA0aF0Cv">messageLabel</a>
+                    <a class="token" href="#/s:10MessageKit04TextA4CellC12messageLabelAA0aF0Cvp">messageLabel</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -275,7 +259,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The label used to display the message&rsquo;s text.</p>
 
                       </div>
                       <div class="declaration">
@@ -384,33 +368,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10MessageKit04TextA4CellC16setupConstraintsyyF"></a>
-                    <a name="//apple_ref/swift/Method/setupConstraints()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10MessageKit04TextA4CellC16setupConstraintsyyF">setupConstraints()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">setupConstraints</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:10MessageKit04TextA4CellC9configureyAA0A4Type_p4with_10Foundation9IndexPathV2atAA22MessagesCollectionViewC3andtF"></a>
                     <a name="//apple_ref/swift/Method/configure(with:at:and:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:10MessageKit04TextA4CellC9configureyAA0A4Type_p4with_10Foundation9IndexPathV2atAA22MessagesCollectionViewC3andtF">configure(with:at:and:)</a>
@@ -421,8 +378,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -448,7 +404,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Handle <code>ContentView</code>&lsquo;s tap gesture, return false when <code>ContentView</code> don&rsquo;t needs to handle gesture</p>
+                        <p>Used to handle the cell&rsquo;s contentView&rsquo;s tap gesture.
+Return false when the contentView does not need to handle the gesture.</p>
 
                       </div>
                       <div class="declaration">
@@ -467,7 +424,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://github.com/MessageKit/MessageKit" target="_blank" rel="external">Steven Deutsch</a>. All rights reserved. (Last updated: 2017-12-17)</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/MessageKit/MessageKit" target="_blank" rel="external">Steven Deutsch</a>. All rights reserved. (Last updated: 2018-06-13)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

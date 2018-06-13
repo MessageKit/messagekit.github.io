@@ -14,7 +14,7 @@
     <a title="MessagesDisplayDelegate Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">MessageKit Docs</a> (52% documented)</p>
+        <p><a href="../index.html">MessageKit Docs</a> (54% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -34,6 +34,9 @@
                 <a href="../Classes/AvatarView.html">AvatarView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/CellSizeCalculator.html">CellSizeCalculator</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/InputBarButtonItem.html">InputBarButtonItem</a>
               </li>
               <li class="nav-group-task">
@@ -49,10 +52,19 @@
                 <a href="../Classes/InputTextView.html">InputTextView</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/InsetLabel.html">InsetLabel</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/LocationMessageCell.html">LocationMessageCell</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/LocationMessageSizeCalculator.html">LocationMessageSizeCalculator</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/MediaMessageCell.html">MediaMessageCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MediaMessageSizeCalculator.html">MediaMessageSizeCalculator</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessageCollectionViewCell.html">MessageCollectionViewCell</a>
@@ -61,13 +73,7 @@
                 <a href="../Classes/MessageContainerView.html">MessageContainerView</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/MessageDateHeaderView.html">MessageDateHeaderView</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/MessageFooterView.html">MessageFooterView</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Classes/MessageHeaderView.html">MessageHeaderView</a>
+                <a href="../Classes/MessageContentCell.html">MessageContentCell</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessageInputBar.html">MessageInputBar</a>
@@ -79,16 +85,22 @@
                 <a href="../Classes/MessageLabel.html">MessageLabel</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Classes/MessageReusableView.html">MessageReusableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageSizeCalculator.html">MessageSizeCalculator</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/MessagesCollectionViewFlowLayout.html">MessagesCollectionViewFlowLayout</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/MessagesViewController.html">MessagesViewController</a>
+                <a href="../Classes/MessagesCollectionViewLayoutAttributes.html">MessagesCollectionViewLayoutAttributes</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/NSLayoutConstraintSet.html">NSLayoutConstraintSet</a>
+                <a href="../Classes/MessagesViewController.html">MessagesViewController</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/PlayButtonView.html">PlayButtonView</a>
@@ -99,22 +111,19 @@
               <li class="nav-group-task">
                 <a href="../Classes/TextMessageCell.html">TextMessageCell</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextMessageSizeCalculator.html">TextMessageSizeCalculator</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
             <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums.html#/s:10MessageKit15AvatarAlignmentO">AvatarAlignment</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/DetectorType.html">DetectorType</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/LabelAlignment.html">LabelAlignment</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/MessageData.html">MessageData</a>
+                <a href="../Enums/MessageKind.html">MessageKind</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/MessageStyle.html">MessageStyle</a>
@@ -131,7 +140,10 @@
             <a href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols/CollectionViewReusable.html">CollectionViewReusable</a>
+                <a href="../Protocols/LocationItem.html">LocationItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MediaItem.html">MediaItem</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/MessageCellDelegate.html">MessageCellDelegate</a>
@@ -172,7 +184,10 @@
                 <a href="../Structs/AvatarPosition/Vertical.html">– Vertical</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs.html#/s:10MessageKit08LocationA15SnapshotOptionsV">LocationMessageSnapshotOptions</a>
+                <a href="../Structs/LabelAlignment.html">LabelAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocationMessageSnapshotOptions.html">LocationMessageSnapshotOptions</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/Sender.html">Sender</a>
@@ -191,7 +206,7 @@
 
                 </div>
               </div>
-            <p>A protocol used by the <code><a href="../Classes/MessagesViewController.html">MessagesViewController</a></code> to customize the appearance of a <code>MessagesCollectionViewCell</code>.</p>
+            <p>A protocol used by the <code><a href="../Classes/MessagesViewController.html">MessagesViewController</a></code> to customize the appearance of a <code><a href="../Classes/MessageContentCell.html">MessageContentCell</a></code>.</p>
 
           </section>
           <section class="section task-group-section">
@@ -221,8 +236,11 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Specifies the <code><a href="../Enums/MessageStyle.html">MessageStyle</a></code> to be used for a <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code>.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>The default value returned by this method is <code><a href="../Enums/MessageStyle.html#/s:10MessageKit0A5StyleO6bubbleA2CmF">MessageStyle.bubble</a></code>.</p>
 
-<p>The default value returned by this method is <code><a href="../Enums/MessageStyle.html#/s:10MessageKit0A5StyleO6bubbleA2CmF">MessageStyle.bubble</a></code>.</p>
+</div>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -300,12 +318,16 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Specifies the background color of the <code><a href="../Classes/MessageContainerView.html">MessageContainerView</a></code>.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>The default value is <code>UIColor.clear</code> for emoji messages.
+For all other <code><a href="../Enums/MessageKind.html">MessageKind</a></code> cases, the color depends on the <code><a href="../Structs/Sender.html">Sender</a></code>.</p>
 
-<p>The default value is <code>UIColor.clear</code> for emoji messages. For all other <code><a href="../Enums/MessageData.html">MessageData</a></code> cases, the color depends on the <code><a href="../Structs/Sender.html">Sender</a></code>:</p>
+</div>
 
-<p>Current Sender: Green</p>
+<p>Current sender: Green</p>
 
-<p>All other Senders: Gray</p>
+<p>All other senders: Gray</p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -369,9 +391,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10MessageKit23MessagesDisplayDelegateP17messageHeaderViewAA0agH0CAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionH0C2intF"></a>
-                    <a name="//apple_ref/swift/Method/messageHeaderView(for:at:in:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10MessageKit23MessagesDisplayDelegateP17messageHeaderViewAA0agH0CAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionH0C2intF">messageHeaderView(for:at:in:)</a>
+                    <a name="/s:10MessageKit23MessagesDisplayDelegateP17messageHeaderViewAA0a8ReusableH0C10Foundation9IndexPathV3for_AA0c10CollectionH0C2intF"></a>
+                    <a name="//apple_ref/swift/Method/messageHeaderView(for:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit23MessagesDisplayDelegateP17messageHeaderViewAA0a8ReusableH0C10Foundation9IndexPathV3for_AA0c10CollectionH0C2intF">messageHeaderView(for:in:)</a>
                     </code>
                       <span class="declaration-note">
                         Default implementation
@@ -382,9 +404,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The section header to use for a given <code><a href="../Protocols/MessageType.html">MessageType</a></code>.</p>
-
-<p>The default value returned by this method is a <code><a href="../Classes/MessageDateHeaderView.html">MessageDateHeaderView</a></code>.</p>
+                        <p>The section header to use for a given <code>IndexPath</code>.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -395,7 +415,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">messageHeaderView</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/MessageHeaderView.html">MessageHeaderView</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">messageHeaderView</span><span class="p">(</span><span class="k">for</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/MessageReusableView.html">MessageReusableView</a></span></code></pre>
 
                         </div>
                       </div>
@@ -448,9 +468,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:10MessageKit23MessagesDisplayDelegateP06shouldD6HeaderSbAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF"></a>
-                    <a name="//apple_ref/swift/Method/shouldDisplayHeader(for:at:in:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10MessageKit23MessagesDisplayDelegateP06shouldD6HeaderSbAA0A4Type_p3for_10Foundation9IndexPathV2atAA0C14CollectionViewC2intF">shouldDisplayHeader(for:at:in:)</a>
+                    <a name="/s:10MessageKit23MessagesDisplayDelegateP17messageFooterViewAA0a8ReusableH0C10Foundation9IndexPathV3for_AA0c10CollectionH0C2intF"></a>
+                    <a name="//apple_ref/swift/Method/messageFooterView(for:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit23MessagesDisplayDelegateP17messageFooterViewAA0a8ReusableH0C10Foundation9IndexPathV3for_AA0c10CollectionH0C2intF">messageFooterView(for:in:)</a>
                     </code>
                       <span class="declaration-note">
                         Default implementation
@@ -461,9 +481,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Used by the <code>MessageLayoutDelegate</code> method <code>headerViewSize(_:_:_:)</code> to determine if a header should be displayed.
-This method checks <code>MessageCollectionView</code>&lsquo;s <code>showsDateHeaderAfterTimeInterval</code> property and returns true if
-the current messages sent date occurs after the specified time interval when compared to the previous message.</p>
+                        <p>The section footer to use for a given <code>IndexPath</code>.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -474,7 +492,7 @@ the current messages sent date occurs after the specified time interval when com
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">shouldDisplayHeader</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">messageFooterView</span><span class="p">(</span><span class="k">for</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/MessageReusableView.html">MessageReusableView</a></span></code></pre>
 
                         </div>
                       </div>
@@ -482,97 +500,6 @@ the current messages sent date occurs after the specified time interval when com
                         <h4>Parameters</h4>
                         <table class="graybox">
                           <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>message</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed for this header.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>indexPath</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The <code>IndexPath</code> of the header.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>messagesCollectionView</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this header will be displayed.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:10MessageKit23MessagesDisplayDelegateP17messageFooterViewAA0agH0CAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionH0C2intF"></a>
-                    <a name="//apple_ref/swift/Method/messageFooterView(for:at:in:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:10MessageKit23MessagesDisplayDelegateP17messageFooterViewAA0agH0CAA0A4Type_p3for_10Foundation9IndexPathV2atAA0c10CollectionH0C2intF">messageFooterView(for:at:in:)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The section footer to use for a given <code><a href="../Protocols/MessageType.html">MessageType</a></code>.</p>
-
-<p>The default value returned by this method is a <code><a href="../Classes/MessageFooterView.html">MessageFooterView</a></code>.</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">messageFooterView</span><span class="p">(</span><span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/MessageFooterView.html">MessageFooterView</a></span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>message</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed for this footer.</p>
-                                </div>
-                              </td>
-                            </tr>
                             <tr>
                               <td>
                                 <code>
@@ -594,6 +521,100 @@ the current messages sent date occurs after the specified time interval when com
                               <td>
                                 <div>
                                   <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this footer will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit23MessagesDisplayDelegateP19configureAvatarViewyAA0gH0C_AA0A4Type_p3for10Foundation9IndexPathV2atAA0c10CollectionH0C2intF"></a>
+                    <a name="//apple_ref/swift/Method/configureAvatarView(_:for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit23MessagesDisplayDelegateP19configureAvatarViewyAA0gH0C_AA0A4Type_p3for10Foundation9IndexPathV2atAA0c10CollectionH0C2intF">configureAvatarView(_:for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to configure the <code><a href="../Classes/AvatarView.html">AvatarView</a></code>‘s image in a <code><a href="../Classes/MessageContentCell.html">MessageContentCell</a></code> class.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>The default image configured by this method is <code>?</code>.</p>
+
+</div>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">configureAvatarView</span><span class="p">(</span><span class="n">_</span> <span class="nv">avatarView</span><span class="p">:</span> <span class="kt"><a href="../Classes/AvatarView.html">AvatarView</a></span><span class="p">,</span> <span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>avatarView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/AvatarView.html">AvatarView</a></code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
                                 </div>
                               </td>
                             </tr>
@@ -631,12 +652,15 @@ the current messages sent date occurs after the specified time interval when com
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Specifies the color of the text for a <code><a href="../Classes/TextMessageCell.html">TextMessageCell</a></code>.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>The default value returned by this method is determined by the messages <code><a href="../Structs/Sender.html">Sender</a></code>.</p>
 
-<p>The default value returned by this method is determined by the messages <code><a href="../Structs/Sender.html">Sender</a></code>:</p>
+</div>
 
-<p>Current Sender: UIColor.white</p>
+<p>Current sender: UIColor.white</p>
 
-<p>All other Senders: UIColor.darkText</p>
+<p>All other senders: UIColor.darkText</p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -663,7 +687,7 @@ the current messages sent date occurs after the specified time interval when com
                               </td>
                               <td>
                                 <div>
-                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageData.html">MessageData</a></code> case of <code>.text</code> or <code>.attributedText</code> to which the color will apply.</p>
+                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageKind.html">MessageKind</a></code> case of <code>.text</code> to which the color will apply.</p>
                                 </div>
                               </td>
                             </tr>
@@ -714,8 +738,11 @@ the current messages sent date occurs after the specified time interval when com
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>Specifies the <code><a href="../Enums/DetectorType.html">DetectorType</a></code>s to check for the <code><a href="../Protocols/MessageType.html">MessageType</a></code>&lsquo;s text against.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>This method returns an empty array by default.</p>
 
-<p>The default value returned by this method is all available detector types.</p>
+</div>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -742,7 +769,7 @@ the current messages sent date occurs after the specified time interval when com
                               </td>
                               <td>
                                 <div>
-                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageData.html">MessageData</a></code> case of <code>.text</code> or <code>.attributedText</code> to which the detectors will apply.</p>
+                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageKind.html">MessageKind</a></code> case of <code>.text</code> or <code>.attributedText</code> to which the detectors will apply.</p>
                                 </div>
                               </td>
                             </tr>
@@ -831,8 +858,7 @@ the current messages sent date occurs after the specified time interval when com
                               </td>
                               <td>
                                 <div>
-                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageData.html">MessageData</a></code> case of <code>.text</code> or <code>.attributedText</code>
-to which the detectors will apply.</p>
+                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageKind.html">MessageKind</a></code> case of <code>.text</code> or <code>.attributedText</code> to which the detectors will apply.</p>
                                 </div>
                               </td>
                             </tr>
@@ -881,7 +907,7 @@ to which the detectors will apply.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Ask the delegate for a LocationMessageSnapshotOptions instance to customize the MapView on the given message</p>
+                        <p>Used to configure a <code><a href="../Structs/LocationMessageSnapshotOptions.html">LocationMessageSnapshotOptions</a></code> instance to customize the map image on the given location message.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -892,7 +918,7 @@ to which the detectors will apply.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">snapshotOptionsForLocation</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs.html#/s:10MessageKit08LocationA15SnapshotOptionsV">LocationMessageSnapshotOptions</a></span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">snapshotOptionsForLocation</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/LocationMessageSnapshotOptions.html">LocationMessageSnapshotOptions</a></span></code></pre>
 
                         </div>
                       </div>
@@ -908,7 +934,7 @@ to which the detectors will apply.</p>
                               </td>
                               <td>
                                 <div>
-                                  <p>The location message to be customized</p>
+                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageKind.html">MessageKind</a></code> case of <code>.location</code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -920,7 +946,7 @@ to which the detectors will apply.</p>
                               </td>
                               <td>
                                 <div>
-                                  <p>Message&rsquo;s index path</p>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
                                 </div>
                               </td>
                             </tr>
@@ -932,7 +958,7 @@ to which the detectors will apply.</p>
                               </td>
                               <td>
                                 <div>
-                                  <p>The collection view requesting the information</p>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> requesting the information.</p>
                                 </div>
                               </td>
                             </tr>
@@ -941,7 +967,7 @@ to which the detectors will apply.</p>
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Your LocationMessageSnapshotOptions instance with the options to customize map style</p>
+                        <p>The LocationMessageSnapshotOptions instance with the options to customize map style.</p>
                       </div>
                     </section>
                   </div>
@@ -962,10 +988,7 @@ to which the detectors will apply.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Ask the delegate for a custom MKAnnotationView to show on the given message.
-You can return nil if you don&rsquo;t want to show any annotation.</p>
-
-<p>default: MKPinAnnotationView</p>
+                        <p>Used to configure the annoation view of the map image on the given location message.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -992,7 +1015,7 @@ You can return nil if you don&rsquo;t want to show any annotation.</p>
                               </td>
                               <td>
                                 <div>
-                                  <p>The location message with the annotation to customize</p>
+                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageKind.html">MessageKind</a></code> case of <code>.location</code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1004,19 +1027,19 @@ You can return nil if you don&rsquo;t want to show any annotation.</p>
                               </td>
                               <td>
                                 <div>
-                                  <p>Message&rsquo;s index path</p>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
                                 </div>
                               </td>
                             </tr>
                             <tr>
                               <td>
                                 <code>
-                                <em>messageCollectionView</em>
+                                <em>messagesCollectionView</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>The collection view requesting the information</p>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> requesting the information.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1025,7 +1048,7 @@ You can return nil if you don&rsquo;t want to show any annotation.</p>
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Your customized MKAnnotationView or nil to not show any.</p>
+                        <p>The <code>MKAnnotationView</code> to use as the annotation view.</p>
                       </div>
                     </section>
                   </div>
@@ -1046,10 +1069,8 @@ You can return nil if you don&rsquo;t want to show any annotation.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Ask the delegate for a custom animation block to run when whe map screenshot is ready to be displaied in the given location message
-The animation block is called with the image view to be animated. You can animate it with CoreAnimation, UIView.animate or any library you prefer.</p>
-
-<p>default: nil</p>
+                        <p>Ask the delegate for a custom animation block to run when whe map screenshot is ready to be displaied in the given location message.
+The animation block is called with the <code>UIImageView</code> to be animated.</p>
 
                       </div>
                       <h4>Default Implementation</h4>
@@ -1076,7 +1097,7 @@ The animation block is called with the image view to be animated. You can animat
                               </td>
                               <td>
                                 <div>
-                                  <p>The location message with the map to animate</p>
+                                  <p>A <code><a href="../Protocols/MessageType.html">MessageType</a></code> with a <code><a href="../Enums/MessageKind.html">MessageKind</a></code> case of <code>.location</code>.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1088,7 +1109,7 @@ The animation block is called with the image view to be animated. You can animat
                               </td>
                               <td>
                                 <div>
-                                  <p>Message&rsquo;s index path</p>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1100,7 +1121,7 @@ The animation block is called with the image view to be animated. You can animat
                               </td>
                               <td>
                                 <div>
-                                  <p>The collection view requesting the information</p>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> requesting the information.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1109,7 +1130,107 @@ The animation block is called with the image view to be animated. You can animat
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Your customized animation block.</p>
+                        <p>The animation block to use to apply the location image.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Media%20Messages"></a>
+                <a name="//apple_ref/swift/Section/Media Messages" class="dashAnchor"></a>
+                <a href="#/Media%20Messages">
+                  <h3 class="section-name">Media Messages</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10MessageKit23MessagesDisplayDelegateP014configureMediaA9ImageViewySo07UIImageI0C_AA0A4Type_p3for10Foundation9IndexPathV2atAA0c10CollectionI0C2intF"></a>
+                    <a name="//apple_ref/swift/Method/configureMediaMessageImageView(_:for:at:in:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10MessageKit23MessagesDisplayDelegateP014configureMediaA9ImageViewySo07UIImageI0C_AA0A4Type_p3for10Foundation9IndexPathV2atAA0c10CollectionI0C2intF">configureMediaMessageImageView(_:for:at:in:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to configure the <code>UIImageView</code> of a `MediaMessageCell.</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">configureMediaMessageImageView</span><span class="p">(</span><span class="n">_</span> <span class="nv">imageView</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="p">,</span> <span class="k">for</span> <span class="nv">message</span><span class="p">:</span> <span class="kt"><a href="../Protocols/MessageType.html">MessageType</a></span><span class="p">,</span> <span class="n">at</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="k">in</span> <span class="nv">messagesCollectionView</span><span class="p">:</span> <span class="kt"><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>imageView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>UIImageView</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>message</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Protocols/MessageType.html">MessageType</a></code> that will be displayed by this cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>indexPath</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>IndexPath</code> of the cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>messagesCollectionView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/MessagesCollectionView.html">MessagesCollectionView</a></code> in which this cell will be displayed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -1119,7 +1240,7 @@ The animation block is called with the image view to be animated. You can animat
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://github.com/MessageKit/MessageKit" target="_blank" rel="external">Steven Deutsch</a>. All rights reserved. (Last updated: 2017-12-17)</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/MessageKit/MessageKit" target="_blank" rel="external">Steven Deutsch</a>. All rights reserved. (Last updated: 2018-06-13)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
